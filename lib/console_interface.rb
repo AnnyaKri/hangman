@@ -14,7 +14,6 @@ class ConsoleInterface
       #{figure}
       Ошибки (#{@game.errors_made}): #{errors_to_show}
       У вас осталось ошибок: #{@game.errors_allowed}
-
     PLAYING_FIELD
 
     if @game.won?
