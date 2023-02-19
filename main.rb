@@ -5,7 +5,6 @@ require_relative 'lib/game'
 puts "Всем привет!"
 # 2 Загрузить случайное слово из файла
 word = File.readlines("#{__dir__}/data/words.txt", chomp:true).sample
-# puts word
 game = Game.new(word)
 console_inerface = ConsoleInterface.new(game)
 
