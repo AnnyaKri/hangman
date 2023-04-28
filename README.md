@@ -24,7 +24,7 @@ git clone git@github.com:AnnyaKri/hangman.git
 ```
 bundle install
 ```
-Для корректной игры программу нужно запускать с командой `bundler exec`
+Для корректной игры программу нужно запускать с командой `bundle exec`
 ```
-bundler exec ruby main.rb
+bundle exec ruby main.rb
 ```
