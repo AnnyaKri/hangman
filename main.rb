@@ -1,6 +1,6 @@
 require "colorize"
-require_relative 'lib/console_interface'
-require_relative 'lib/game'
+require_relative "lib/console_interface"
+require_relative "lib/game"
 # 1 Поздороваться
 puts "Всем привет!Это игра Виселица.".colorize(color: :white, background: :red)
 # 2 Загрузить случайное слово из файла
